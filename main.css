@@ -1,0 +1,109 @@
+.item {
+    background-color:white;
+    margin: 5px;
+    font-size: larger;
+    
+}
+
+.flexcontainer-comeco{   
+    display: flex;
+    height: 100px;
+    justify-content: flex-start;
+    background-color:aqua;
+    color: black;
+    border : 2px solid black;
+}
+
+.Flexcontainer-end{
+    display: flex;
+    height: 100px;
+    justify-content: flex-end;
+    background-color: turquoise;
+    color: black;
+    border: 2px solid black;
+}
+
+.Flexcontainer-center{
+ display: flex;
+ height: 100px;
+ justify-content: center;
+ background-color: pink;
+ color: black;
+ border: 2px solid black;
+}
+
+.Flexcontainer-Spacebet{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    background-color: blueviolet;
+    color: black;
+    border: 2px solid black;
+}
+
+.Flexcontainer-SpaceAround{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    background-color: rgb(174, 235, 8);
+    color: black;
+    border: 2px solid black;
+}
+
+.Flexcontainer-Spaceevenly{
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    background-color: rgb(134, 94, 34);
+    color: black;
+    border: 2px solid black;
+}
+
+.FlexContainerAL-st{
+    display: flex;
+    height: 100px;
+    border: 2px solid black;
+    align-items: stretch;
+    background-color:chocolate;
+    color: black;
+}
+
+.FlexContainerAL-fs{
+    display: flex;
+    height: 100px;
+    border: 2px solid black;
+    align-items: flex-start;
+    background-color: blueviolet;
+    color: black;
+}
+
+.FlexContainerAL-fe{
+    display: flex;
+    height: 100px;
+    border: 2px solid black;
+    align-items: flex-end;
+    background-color:brown;
+    color: black;
+
+}
+
+.FlexContainerAL-ce{
+    display: flex;
+    height: 100px;
+    border: 2px solid black;
+    align-items: center;
+    background-color:burlywood;
+    color: black;
+
+}
+
+.FlexContainerAL-Bs{
+    display: flex;
+    background-color: red;
+    height: 300px;
+    border: 2px solid black;
+    align-items: baseline;
+    color: black;
+}
+
+
